@@ -1,0 +1,58 @@
+/* GOOGLE FONT URL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Shared btn */
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+/* Shared Style */
+.text-primary {
+    color: #FD6E0A;
+}
+.dark-2 {
+    color: #181818;
+}
+
+/* NAV STYLES */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 50px 200px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    margin-right: 50px;
+
+}
+
+nav li a {
+    text-decoration: none; 
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
